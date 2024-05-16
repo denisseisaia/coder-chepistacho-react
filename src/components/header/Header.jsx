@@ -1,4 +1,4 @@
-import { Carrito } from "./Carrito"
+import { CartWidget } from "./CartWidget"
 import { NavBar } from "./NavBar"
 
 export const Header = () => {
@@ -6,7 +6,7 @@ export const Header = () => {
     <header className="header">
         <h1>Che Pistacho</h1>
         <NavBar />
-        <Carrito />
+        <CartWidget />
     </header>
   )
 }

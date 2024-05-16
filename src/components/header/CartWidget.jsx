@@ -1,6 +1,6 @@
 import { Cart } from "react-bootstrap-icons"
 
-export const Carrito = () => {
+export const CartWidget = () => {
   return (
     <div className='carrito'>
         <Cart 
