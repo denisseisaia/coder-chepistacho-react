@@ -1,0 +1,10 @@
+[
+    {
+        "id": "papel",
+        "nombre":"Papel"
+    },
+    {
+        "id": "digital",
+        "nombre":"Digital"
+    }
+]

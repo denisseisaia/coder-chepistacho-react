@@ -1,0 +1,20 @@
+.footer{
+    background-color: $azul;
+    padding: 2rem;
+    margin-top: 5rem;
+    .redes-footer{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        svg {
+            width: 2rem;
+            height: 2rem;
+            color: $blanco;                      
+            &:hover {
+                color: $gris-c;
+                transform: scale(1.15);
+            }
+        }
+    }
+}

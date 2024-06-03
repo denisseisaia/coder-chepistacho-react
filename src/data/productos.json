@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nombre": "Agenda Semanal",
+        "img1": "/src/assets/productos/id1.jpg",
+        "destacado": "SI",
+        "precio": 20000,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "categoria": {
+            "id": "papel",
+            "nombre":"Papel"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Agenda Diaria",
+        "img1": "/src/assets/productos/id2.jpg",
+        "destacado": "NO",
+        "precio": 23000,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "categoria": {
+            "id": "papel",
+            "nombre":"Papel"
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Cuaderno Rayado",
+        "img1": "/src/assets/productos/id3.jpg",
+        "destacado": "SI",
+        "precio": 12000,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "categoria": {
+            "id": "papel",
+            "nombre":"Papel"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Cuaderno Liso",
+        "img1": "/src/assets/productos/id4.jpg",
+        "destacado": "NO",
+        "precio": 12000,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "categoria": {
+            "id": "papel",
+            "nombre":"Papel"
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Planner Diario",
+        "img1": "/src/assets/productos/id5.png",
+        "destacado": "SI",
+        "precio": 18000,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "categoria": {
+            "id": "digital",
+            "nombre":"Digital"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Planner Semanal",
+        "img1": "/src/assets/productos/id6.png",
+        "destacado": "NO",
+        "precio": 18000,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "categoria": {
+            "id": "digital",
+            "nombre":"Digital"
+        }
+    }
+]
