@@ -31,7 +31,7 @@ export const Checkout = () => {
     return (
       <div>
         <div>
-          <h1>¡Muchas gracias por tu compra!</h1>
+          <h2>¡Muchas gracias por tu compra!</h2>
           <h3>Para hacer el seguimiento de tu pedido, el identificador es: <strong>{docId}</strong></h3>
         </div>
       </div>
