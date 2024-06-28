@@ -1,40 +1,33 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import data from "../data/productos.json";
+import { useParams } from 'react-router-dom'
+import { ItemDetail } from './ItemDetail';
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase/config";
 
 const ItemDetailContainer = () => {
 
     let { itemId } = useParams();
     let [producto, setProducto] = useState(undefined);
+  
+    let error = false;
 
     useEffect(() => {
-        setProducto(data.find((prod) => prod.id === parseInt(itemId)));
-    }, [itemId])
 
+      const docRef = doc(db, "productos", itemId);
+      getDoc(docRef)
+        .then(res => {
+          setProducto( { ...res.data(), id: res.id } );
+        })
+      
+    }, [itemId]);
 
-  return (
-    <div className='detail-prod'>
-    {producto ? (
-        <>
-          <div className='detail-izq'>
-            <p className='categoria-prod'>{producto.categoria.nombre}</p>
-            <img src={producto.img1} className="imagen-prod" alt={producto.nombre} />            
-          </div>
-          <div className='detail-der'>
-            <h2 className='titulo-prod'>{producto.nombre}</h2>
-            <div className='detail-compra'>
-              <p className='precio-prod'>PRECIO ${producto.precio}</p>
-              <Link className='link-prod' to={`/item/${producto.id}`}>COMPRAR</Link>
-            </div>
-            <p className='descripcion-prod'>{producto.descripcion}</p>
-
-          </div>          
-        </>
-    ) : (
-        <p>Cargando...</p>
-    )}
-    </div>
-  )
+    if (producto) {
+      return <ItemDetail producto={producto} />
+    } else if (error) {
+      return <div>Hubo un error</div>
+    } else {
+      return <div>Cargando...</div>
+    }
 }
 
 export default ItemDetailContainer

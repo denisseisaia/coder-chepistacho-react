@@ -2,10 +2,10 @@
     {
         "id": 1,
         "nombre": "Agenda Semanal",
-        "img1": "/src/assets/productos/id1.jpg",
+        "img1": "../../public/assets/productos/id1.jpg",
         "destacado": "SI",
-        "precio": 20000,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "precio": 18000,
+        "descripcion": "Agenda de semana vista. Caracteristicas: A5 (21cm x 15cm), tapa dura forrada en papel laminado, anillado con anillo metálico, 200 páginas de papel reciclado 75 gr. Contenido: Portada, Calendario 2025-2026, Calendario anual para completar, Contraseñas, Tracker de Hábitos, Planners mensuales, Interior Semana vista, Hoja de gastos y Notas.",
         "categoria": {
             "id": "papel",
             "nombre":"Papel"
@@ -14,10 +14,10 @@
     {
         "id": 2,
         "nombre": "Agenda Diaria",
-        "img1": "/src/assets/productos/id2.jpg",
+        "img1": "../../public/assets/productos/id2.jpg",
         "destacado": "NO",
-        "precio": 23000,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "precio": 22000,
+        "descripcion": "Agenda de dia por página. Caracteristicas: A5 (21cm x 15cm), tapa dura forrada en papel laminado, anillado con anillo metálico, 280 páginas de papel reciclado 75 gr. Contenido: Portada, Calendario 2025-2026, Calendario anual para completar, Contraseñas, Tracker de Hábitos, Planners mensuales, Interior un dia por página, Hoja de gastos y Notas.",
         "categoria": {
             "id": "papel",
             "nombre":"Papel"
@@ -26,10 +26,10 @@
     {
         "id": 3,
         "nombre": "Cuaderno Rayado",
-        "img1": "/src/assets/productos/id3.jpg",
+        "img1": "../../public/assets/productos/id3.jpg",
         "destacado": "SI",
         "precio": 12000,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "descripcion": "Cuaderno de notas Rayado. Caracteristicas: A5 (21cm x 15cm), tapa dura forrada en papel laminado, anillado con anillo metálico, 80 páginas de papel reciclado 75 gr. Contenido: Portada y páginas rayadas.",
         "categoria": {
             "id": "papel",
             "nombre":"Papel"
@@ -38,10 +38,10 @@
     {
         "id": 4,
         "nombre": "Cuaderno Liso",
-        "img1": "/src/assets/productos/id4.jpg",
+        "img1": "../../public/assets/productos/id4.jpg",
         "destacado": "NO",
         "precio": 12000,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "descripcion": "Cuaderno de notas Liso. Caracteristicas: A5 (21cm x 15cm), tapa dura forrada en papel laminado, anillado con anillo metálico, 80 páginas de papel reciclado 75 gr. Contenido: Portada y páginas lisas.",
         "categoria": {
             "id": "papel",
             "nombre":"Papel"
@@ -50,10 +50,10 @@
     {
         "id": 5,
         "nombre": "Planner Diario",
-        "img1": "/src/assets/productos/id5.png",
+        "img1": "../../public/assets/productos/id5.png",
         "destacado": "SI",
-        "precio": 18000,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "precio": 20000,
+        "descripcion": "Planner diario digital. Características: archivo para utilizar en celular, tablet o computadora. Se abre a traves de aplicaciones como Goodnotes 5 y Notability. Contenido:  Más de 680 páginas con hipervinculos, organizaacion diaria, semanal, trimestral y anual.",
         "categoria": {
             "id": "digital",
             "nombre":"Digital"
@@ -62,10 +62,10 @@
     {
         "id": 6,
         "nombre": "Planner Semanal",
-        "img1": "/src/assets/productos/id6.png",
+        "img1": "../../public/assets/productos/id6.png",
         "destacado": "NO",
         "precio": 18000,
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo ipsam reprehenderit est assumenda nulla vel sunt doloribus, exercitationem magnam, iusto officiis! Saepe explicabo cumque sapiente. Hic vitae optio mollitia?",
+        "descripcion": "Planner semanal digital. Características: archivo para utilizar en celular, tablet o computadora. Se abre a traves de aplicaciones como Goodnotes 5 y Notability. Contenido:  Más de 380 páginas con hipervinculos, semanal, trimestral y anual.",
         "categoria": {
             "id": "digital",
             "nombre":"Digital"
