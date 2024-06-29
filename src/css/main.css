@@ -472,6 +472,9 @@ p {
   .header .logo {
     width: 100px;
   }
+  .header .navbar-icono {
+    border: rgba(255, 255, 255, 0.5) solid 2px;
+  }
   .header .nav-menu {
     gap: 1rem;
   }
